@@ -1,0 +1,10 @@
+^C:\USERS\GUPTA\ONEDRIVE\DOCUMENTS\ARNAV\CUDA\BRAG_CUDA_2.0\BUILD\CMAKEFILES\886CC4BEA9EEAB46D230F26914A286FE\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/gupta/OneDrive/Documents/Arnav/CUDA/brag_cuda_2.0/src -BC:/Users/gupta/OneDrive/Documents/Arnav/CUDA/brag_cuda_2.0/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/gupta/OneDrive/Documents/Arnav/CUDA/brag_cuda_2.0/build/bb_segsort.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

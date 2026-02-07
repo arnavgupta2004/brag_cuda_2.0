@@ -1,3 +1,8 @@
+#ifdef _MSC_VER
+#define __PRETTY_FUNCTION__ __FUNCSIG__
+#endif
+
+
 #ifndef BOX_COMPARATOR_HPP
 #define BOX_COMPARATOR_HPP
 

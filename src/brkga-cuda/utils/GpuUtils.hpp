@@ -1,3 +1,8 @@
+#ifdef _MSC_VER
+#define __PRETTY_FUNCTION__ __FUNCSIG__
+#endif
+
+
 #ifndef BOX_UTILS_GPUUTILS_HPP
 #define BOX_UTILS_GPUUTILS_HPP
 

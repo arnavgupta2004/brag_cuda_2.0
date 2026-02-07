@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\gupta\OneDrive\Documents\Arnav\CUDA\brag_cuda_2.0\src\brkga-cuda\brkga\PathRelinkCEAndrade.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\gupta\OneDrive\Documents\Arnav\CUDA\brag_cuda_2.0\src\brkga-cuda\Bias.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\gupta\OneDrive\Documents\Arnav\CUDA\brag_cuda_2.0\src\brkga-cuda\BrkgaConfiguration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\gupta\OneDrive\Documents\Arnav\CUDA\brag_cuda_2.0\src\brkga-cuda\Comparator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\gupta\OneDrive\Documents\Arnav\CUDA\brag_cuda_2.0\src\brkga-cuda\Decoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\gupta\OneDrive\Documents\Arnav\CUDA\brag_cuda_2.0\src\brkga-cuda\DecodeType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\gupta\OneDrive\Documents\Arnav\CUDA\brag_cuda_2.0\src\brkga-cuda\PathRelinkPair.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\gupta\OneDrive\Documents\Arnav\CUDA\brag_cuda_2.0\src\brkga-cuda\except\InvalidArgument.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\gupta\OneDrive\Documents\Arnav\CUDA\brag_cuda_2.0\src\brkga-cuda\except\NotImplemented.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\gupta\OneDrive\Documents\Arnav\CUDA\brag_cuda_2.0\src\brkga-cuda\utils\GpuUtils.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\gupta\OneDrive\Documents\Arnav\CUDA\brag_cuda_2.0\src\brkga-cuda\utils\StringUtils.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\gupta\OneDrive\Documents\Arnav\CUDA\brag_cuda_2.0\src\brkga-cuda\Bias.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\gupta\OneDrive\Documents\Arnav\CUDA\brag_cuda_2.0\src\brkga-cuda\Brkga.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\gupta\OneDrive\Documents\Arnav\CUDA\brag_cuda_2.0\src\brkga-cuda\BrkgaConfiguration.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\gupta\OneDrive\Documents\Arnav\CUDA\brag_cuda_2.0\src\brkga-cuda\Chromosome.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\gupta\OneDrive\Documents\Arnav\CUDA\brag_cuda_2.0\src\brkga-cuda\Comparator.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\gupta\OneDrive\Documents\Arnav\CUDA\brag_cuda_2.0\src\brkga-cuda\Decoder.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\gupta\OneDrive\Documents\Arnav\CUDA\brag_cuda_2.0\src\brkga-cuda\DecodeType.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\gupta\OneDrive\Documents\Arnav\CUDA\brag_cuda_2.0\src\brkga-cuda\Logger.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\gupta\OneDrive\Documents\Arnav\CUDA\brag_cuda_2.0\src\brkga-cuda\PathRelinkPair.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="..\src\brkga-cuda\brkga\Filter.cu">
+      <Filter>Source Files</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\src\brkga-cuda\utils\GpuUtils.cu">
+      <Filter>Source Files</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\src\brkga-cuda\Brkga.cu">
+      <Filter>Source Files</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\src\brkga-cuda\Chromosome.cu">
+      <Filter>Source Files</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\gupta\OneDrive\Documents\Arnav\CUDA\brag_cuda_2.0\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{90586895-8994-339C-B02F-A7654B0845B4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E76117D5-1C1E-39A6-85E3-84D5A81967FB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

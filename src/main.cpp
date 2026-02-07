@@ -29,7 +29,7 @@ int main() {
           .chromosomeLength(n)
           .numberOfElites(25)  // or `.elitePercentage(.10)`
           .numberOfMutants(25)  // or `.mutantPercentage(.10)`
-          .rhoe(.75)
+          // .rhoe(.75)
           .numberOfElitesToExchange(3)
           .seed(1)
           .gpuThreads(256)  // works better with powers of 2
@@ -46,15 +46,15 @@ int main() {
     brkga.evolve();
     if (g % exchangeInterval == 0)
       brkga.exchangeElites();
-    if (g % updateRhoeInterval == 0) {
-      // intensifying the search around the elites
-      brkga.config.setRhoe(brkga.config.rhoe() + .05);
+    // if (g % updateRhoeInterval == 0) {
+    //   // intensifying the search around the elites
+    //   brkga.config.setRhoe(brkga.config.rhoe() + .05);
 
-      // other parameters can be updated too, e.g.:
-      //   `brkga.config.setNumberOfElites(10)`
-      //   `brkga.config.setOmpThreads(1)`
-      //   `brkga.config.setNumberOfElitesToExchange(5)`
-    }
+    //   // other parameters can be updated too, e.g.:
+    //   //   `brkga.config.setNumberOfElites(10)`
+    //   //   `brkga.config.setOmpThreads(1)`
+    //   //   `brkga.config.setNumberOfElitesToExchange(5)`
+    // }
   }
 
   // output

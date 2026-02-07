@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\gupta\OneDrive\Documents\Arnav\CUDA\brag_cuda_2.0\build\CMakeFiles\886cc4bea9eeab46d230f26914a286fe\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{E0E689B7-0D2B-3324-9233-65E7A9D7AC38}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
